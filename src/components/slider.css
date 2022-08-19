@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.bgImage {
+    background-size: cover;
+}
+.Carousel{
+    margin: 0%;
+    padding: 0%;
+}
+
+.CarouselImg {
+    width: 50%;
+    float: right;
+}
+
+.Carousel h1 {
+  
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.Carousel h3 {
+    margin: 1em;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F0F0F0;
+}
+
+.caption img {
+    margin-bottom: 1em;
+}
+
+.NameReviews {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 1.25em;
+}
+.picOfReviews{
+    border-radius: 50%;
+    margin-top: 1em;
+}
+.lagdge{
+   min-height: 32em;
+}
+/* @media screen and (max-width: 500px) {
+    .Carousel h1 {
+        margin-top: 12em;
+    }
+  } */

@@ -1,0 +1,115 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    font-family: 'Yeseva One';
+  }
+
+  .backgroundDestination {
+    
+    margin: 0;
+    padding: 0;
+    min-height: 35em;
+    width: 100%;
+    background-image: url(/src/components/img/distination.png);
+    background-size: cover;
+    align-items: center;
+    
+  }
+  @media screen and (max-width: 890px) {
+    .backgroundDestination {
+      min-height: 40em;
+    }
+  }
+  
+  .destinationFront {
+    
+    background: rgba(35,35,35,  0.1);
+  background-size: cover;
+  
+  }
+  .destinationTitle {
+    margin-top: 3.5em;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 83px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px  #000000;
+    color: #FFFFFF;
+    font-family: 'Yeseva One';
+  }
+  
+  @media screen and (max-width: 890px) {
+    .destinationTitle {
+      font-size: 49px;
+      margin-top: 7em;
+    }
+  }
+  
+  @media screen and (max-width: 490px) {
+    .destinationTitle {
+      font-size: 25px;
+      line-height: 53px;
+    }
+  }
+
+
+.destinationcards-container1 {
+   margin-top: 3em;
+    border-radius: 6px;
+    color: #333;
+justify-content: center;
+
+  
+    
+}
+
+.destinationcard1 {
+    background: #fff;
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 6px;
+    border: none;
+    height: 25em;
+    max-width: 20em;
+    background-size: cover;
+    transition: all 250ms ease-in-out;
+    border-radius: 25px;
+    
+}
+.destinationcard1:hover {
+  transform: scale(1.07);
+  box-shadow: 0 4px 1rem -4px #000;
+ 
+}
+.destinationcard1 img {
+    height: 25em;
+    width: 35em;
+    background-size: cover;
+}
+.destinationshoppingCart img {
+    height: 2em;
+    width: 2em;
+    z-index: 12;
+    margin-top: -48em;
+    
+}
+
+
+@media screen and (max-width: 625px) {
+    .destinationcontainer1 {
+        width: 100%;
+   }
+    .destinationcards-container {
+        padding: 0.5rem;
+   }
+    .destinationcard1 {
+        margin: 0.5rem;
+   }
+}
+.destinationcardTitle{
+    margin-top: -2em;
+    margin-left: 1em;
+    font-family: 'Yeseva One';
+    text-shadow: 0 0 1rem #000 inset;
+}

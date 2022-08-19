@@ -1,0 +1,460 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+  font-family: 'Yeseva One';
+}
+.backgroundsLines{
+  background: url(/src/components/img/line.png) right top no-repeat, url(/src/components/img/line2.png) left bottom no-repeat;
+
+}
+.backgroundHome {
+  
+  margin: 0;
+  padding: 0;
+  min-height: 60em;
+  width: 100%;
+  background-image: url(/src/components/img/homePic.png);
+  background-size: cover;
+  align-items: center;
+  
+}
+@media screen and (max-width: 890px) {
+  .background {
+    min-height: 78em;
+  }
+}
+
+.HomeFront {
+  
+  background: linear-gradient( rgba(38, 103, 190, 0.3) 19.27%, rgba(129, 186, 216, 0.2) 98.82%);
+background-size: cover;
+
+}
+
+.homeTitle {
+  margin-top: 3.5em;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 83px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px  #000000;
+  color: #FFFFFF;
+  font-family: 'Yeseva One';
+}
+
+@media screen and (max-width: 890px) {
+  .homeTitle {
+    font-size: 49px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .homeTitle {
+    font-size: 25px;
+    line-height: 53px;
+  }
+}
+
+.homePara {
+  margin-top: 1em;
+
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 490px) {
+  .homePara {
+    font-size: 19px;
+    font-weight: 200;
+  }
+}
+
+.whereContainer {
+  
+  background: #f9f9f9;
+ background-image: url(/src/components/img/line.png);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  /* width: 100%; */
+ overflow-x: hidden;
+ background-size: cover;
+  
+ 
+
+}
+
+/* @media screen and (max-width: 890px) {
+  .whereContainer {
+   width: 100%;
+  }
+} */
+.whereTxt {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  
+}
+
+
+
+.date {
+  border-radius: 5px;
+  min-height: 2.5em;
+}
+
+@media screen and (max-width: 890px) {
+  .date {
+    text-align: center;
+  }
+}
+
+.date input {
+  border: none;
+  height: 2.0em;
+  background-color: transparent;
+}
+
+.date i {
+  font-family: FontAwesome;
+  text-align: center;
+  height: 2.0em;
+  margin-top: .75em;
+}
+
+.date input[type="date"]::-webkit-inner-spin-button,
+.date input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+
+
+}
+
+.checkBoxCol {
+  height: 2.75em;
+  justify-items: center;
+}
+
+@media screen and (max-width: 890px) {
+  .checkBoxCol {
+    text-align: center;
+  }
+}
+
+.checkbox {
+
+  width: 1.25em;
+  height: 1.25em;
+  margin-top: 10px;
+}
+
+.Dont {
+  margin-left: 7px;
+}
+
+.guestCol {
+  height: 2.75em;
+ 
+  border-radius: 5px;
+}
+
+
+
+.userIcon {
+  font-family: FontAwesome;
+  
+
+  height: 2.0em;
+  width: 2em;
+  margin-top: .75em;
+}
+
+.downIcon {
+  font-family: FontAwesome;
+  color: #e63e3e;
+  height: 2.0em;
+  width: 2em;
+  margin-top: .75em;
+  margin-left: 4em;
+}
+@media screen and (max-width: 890px) {
+  .downIcon {
+   margin-left: 9em;
+  }
+}
+@media screen and (max-width: 590px) {
+  .downIcon {
+   margin-left: 8.5em;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  color: black;
+  margin-left: -8.9em;
+  width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border: 3px solid white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px #ffffff;
+  z-index: 12;
+  overflow: visible;
+
+}
+.counter{
+  float: right;
+}
+.count {
+ margin-left: 1em;
+
+}
+.countPlus {
+  margin-left: 1em;
+ 
+ }
+ .countMin {
+  margin-left: -4em;
+ 
+ }
+.startPlanning{
+ height: 2.75em;
+  border-radius: 5px;
+  border: none;
+}
+.startPlanning a{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 18px;
+  padding-top: .75em;
+  text-align: center;
+  color: #FFFFFF;
+}
+.bgLine {
+  margin: 0%;
+  padding: 0%;
+  background:
+      url(/src/components/img/line2.png) no-repeat left top,
+      url(/src/components/img/line.png) no-repeat right bottom;
+      background-size: 20% 100%,40% 130%;
+
+  /* height: 95em; */
+}
+.geToKnow{
+  overflow: hidden;
+  margin: 0%;
+  padding: 0%;
+}
+
+.know{
+  color: #D83324;
+  text-transform: none;
+  font-family: 'Dancing Script';
+}
+
+.bookingTitle{
+  font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 26px;
+color: #302E2E;
+
+}
+.bookingPara{
+  font-family: 'Metropolis';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+text-align: center;
+color: #302E2E;
+}
+.weekindContainer{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 1em;
+  /* height: 17em; */
+  overflow: hidden;
+  background:
+      url(/src/components/img/ENDS.png) no-repeat left top,
+      url(/src/components/img/Weeks.png) no-repeat right bottom;
+      background-size: 16% 43%,16% 43%;
+      /* background-size: contain; */
+}
+
+.weekindTitle{
+  width: 50%;
+  margin-left: 2em;
+  margin-top: 1.5em;
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 69px;
+text-transform: uppercase;
+color: #302E2E;
+}
+
+
+.weekindPara{
+  margin: 0%;
+  padding: 0%;
+  width: 50%;
+  margin-left: 5em;
+  font-family: 'Metropolis';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #302E2E;
+}
+@media screen and (max-width: 825px) {
+  .weekindContainer{
+    background-size: 45% 43%,45% 43%;
+    margin-top: 0%;
+  }
+  .weekindTitle {
+    width: 100%;
+margin-left: 0%;
+    font-size: 40px;
+line-height: 49px;
+}
+  .weekindPara {
+      width: 100%;
+     margin-left: 0%;
+  }
+}
+
+
+.weekend img{
+  width: 100%;
+  background-size: cover;
+  height: 19em;
+  margin: 0%;
+  padding: 0%;
+}
+.tou {
+margin-inline-start: 72%;
+}
+@media screen and (min-width: 900px) {
+  .tou {
+    margin-inline-start: 58%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .tou{
+    margin-inline-start: 52%;
+  }
+  .ends {
+      width: 100%;
+      height: 5em;
+     
+  }
+  .weekPic {
+    width: 100%;
+    height: 5em;
+}
+.weekend img {
+  height: 7em;
+  margin: 0;
+  padding: 0;
+}
+}
+@media screen and (max-width: 590px) {
+  .tou {
+    margin-inline-start: 4%;
+  }
+}
+.hottest{
+  margin: 0%;
+  padding: 0%;
+  height: 12em;
+  background:
+  url(/src/components/img/TOURs.png) no-repeat left bottom;
+}
+.hottestTitle{
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+
+color: #302E2E;
+}
+.hottestPara{
+  font-family: 'Metropolis';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #302E2E;
+}
+
+.subscribe{
+  background-image: url(/src/components/img/line4.png);
+  border-radius: 10px;
+}
+.joinNews{
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+text-transform: uppercase;
+color: #FFFFFF;
+/* margin: 1em; */
+}
+.joinNewsTxt{
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+/* margin: 1em; */
+}
+
+.subscribeInput{
+  height: 60px;
+  width: 75%;
+}
+.subscribeButton{
+  height: 60px;
+  width: 25%;
+  border: none;
+  background: #302E2E;
+  color: white;
+  font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+  margin-left: 0;
+}
+@media screen and (max-width: 900px) {
+  .subscribeInput {
+    width: 100%;
+  }
+  .subscribeButton {
+    width: 100%;
+   
+  }
+}

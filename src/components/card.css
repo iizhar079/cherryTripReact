@@ -1,0 +1,74 @@
+
+ .container {
+    width: 100%;
+    margin: auto;
+}
+.cards-container1 {
+    display: flex;
+    border-radius: 6px;
+    color: #333;
+
+    /* background: #eee; */
+    /* padding: 1rem; */
+    /* box-shadow: 0 0 1rem #000 inset; */
+    overflow-x: auto;
+    position: relative;
+    /* height: 25em; */
+    margin-top: -7em;
+    
+}
+.cards-container1::-webkit-scrollbar {
+    display: none;
+}
+.card1 {
+    flex: 1 0 350px;
+    /* box-shadow: 0 1px 1rem -4px #000; */
+    background: #fff;
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 6px;
+    border: none;
+    /* cursor: pointer; */
+    height: 25em;
+    width: 35em;
+    /* background-image: url(/src/components/img/swat.png); */
+    background-size: cover;
+    transition: all 250ms ease-in-out;
+    border-radius: 25px;
+}
+.card1 img {
+    /* cursor: pointer; */
+    height: 25em;
+    width: 35em;
+    background-size: cover;
+}
+.shoppingCart img {
+    height: 2em;
+    width: 2em;
+    z-index: 12;
+    margin-top: 43em;
+    
+}
+.card1:hover {
+    box-shadow: 0 4px 1rem -4px #000;
+    transform: translateY(-3px);
+    
+}
+
+@media screen and (max-width: 625px) {
+    .container1 {
+        width: 100%;
+   }
+    .cards-container {
+        padding: 0.5rem;
+   }
+    .card1 {
+        margin: 0.5rem;
+   }
+}
+.cardTitle{
+    margin-top: -2em;
+    margin-left: 1em;
+    font-family: 'Yeseva One';
+    text-shadow: 0 0 1rem #000 inset;
+}
